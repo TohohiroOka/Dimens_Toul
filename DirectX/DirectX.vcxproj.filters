@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="シェーダーファイル">
+      <UniqueIdentifier>{c4b63bef-c4b4-40dd-8ebf-3f9cdc0f8557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ゲームシステム">
+      <UniqueIdentifier>{0effebc6-bde2-41c3-abf2-9ff8e71ffaa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム">
+      <UniqueIdentifier>{02085d77-f2ce-451c-9e0e-1cea092e391b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Audio">
+      <UniqueIdentifier>{d50b3b7c-f0ed-427f-ae1c-45dc69a89fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シェーダーファイル\Sprite">
+      <UniqueIdentifier>{c79de487-cd11-4978-a7f8-3162e4c4f1d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シェーダーファイル\Obj">
+      <UniqueIdentifier>{47c0745e-d963-4c4e-a611-83305efb37e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シェーダーファイル\Particle">
+      <UniqueIdentifier>{50e7d2ef-5d76-4f6d-8d0c-5c54df89cb0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Camera">
+      <UniqueIdentifier>{712cc4e0-95cb-4715-b30f-3af55e4b2ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Particle">
+      <UniqueIdentifier>{33bd4f75-ebed-40fd-837b-60126820b578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Light">
+      <UniqueIdentifier>{4aa578b4-27fc-4eb3-ab2f-ee4aa96fefae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シェーダーファイル\Fbx">
+      <UniqueIdentifier>{929a2fcd-b7c7-40f9-aed6-c72f40ae73a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Object">
+      <UniqueIdentifier>{f9763ffe-2661-489a-b178-3b5613888aef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Object\2d">
+      <UniqueIdentifier>{d1b2616a-7617-475b-9481-78aa38115a72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Object\2d\DebugText">
+      <UniqueIdentifier>{8a8a8b89-b332-4ad1-a027-0e71cd3d792f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Object\3d">
+      <UniqueIdentifier>{b39b7445-39ca-4c57-b18f-3f6706c5e001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Object\3d\OBJ">
+      <UniqueIdentifier>{0789e0f6-e5b2-4934-8399-12f9516c08e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Object\2d\PostEffect">
+      <UniqueIdentifier>{0395157f-cfe5-4ae8-b61c-ca939ad99a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Object\3d\DrawLine3D">
+      <UniqueIdentifier>{23dfebfc-16ed-4a5a-ab22-b48d8195c6e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シェーダーファイル\DrawLine3D">
+      <UniqueIdentifier>{39c8b700-fc76-4b07-b2e0-aafb12ec0439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シェーダーファイル\PostEffect">
+      <UniqueIdentifier>{bcc09153-9725-4d08-aad7-fe6fcebe4240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ゲームシステム\Scene">
+      <UniqueIdentifier>{8677fbf2-e109-497b-99fb-14bb695dc881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シェーダーファイル\Basic">
+      <UniqueIdentifier>{a8a993ee-4e2d-4f0e-bfdd-b29afe531222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シェーダーファイル\DrawLine2d">
+      <UniqueIdentifier>{e1ee08c3-3b6d-4994-8504-e70b2931b8f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Base">
+      <UniqueIdentifier>{67675b7e-5f68-4193-8d4f-1cc9fe252ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Base\Input">
+      <UniqueIdentifier>{c9ef2e81-bfcf-41ca-b3c8-821026159bee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Base\Input\DirectInput">
+      <UniqueIdentifier>{58311a71-87d7-4957-9612-2c40d99f3fb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Base\Input\XInputManager">
+      <UniqueIdentifier>{6ba36846-abfa-4705-a231-337b7198fd22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Base\DirectXCommon">
+      <UniqueIdentifier>{c4924800-ddb9-4297-b120-7d63cc5ccb07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Base\WindowApp">
+      <UniqueIdentifier>{c8b9b141-feab-43bc-9dc3-65df95c04218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Base\MainEngine">
+      <UniqueIdentifier>{d363d3f2-8b0d-4d98-b20d-8210587ec264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Base\ShaderManager">
+      <UniqueIdentifier>{356b25fe-ae5a-4de6-8b21-156452afe5c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シェーダーファイル\CubeBox">
+      <UniqueIdentifier>{7508ff1d-e35f-4500-975c-5425a099d05b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{23249f82-5888-449d-8f3a-edc0bb3f0345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シェーダーファイル\HeightMap">
+      <UniqueIdentifier>{3a93725c-abc3-4024-816d-8a3a69153d13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Object\3d\collider">
+      <UniqueIdentifier>{01e36be7-9665-4170-9568-05beaf158a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Base\DescriptorHeapManager">
+      <UniqueIdentifier>{3051bf8a-d26c-4ead-8442-0b5b71920395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Base\Texture">
+      <UniqueIdentifier>{26f09d4b-07a4-4861-afef-6d00e6259479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Base\Helpar">
+      <UniqueIdentifier>{3d04591c-d91a-409f-bed5-97956e0d7543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Base\Scene">
+      <UniqueIdentifier>{f22beb32-3746-4c9a-99e6-f06cfe08ba98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Base\Helpar\Easing">
+      <UniqueIdentifier>{dcc10f48-e82b-48b9-b179-b571095ffe54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Base\Helpar\FrameRateKeep">
+      <UniqueIdentifier>{31f81314-112e-490b-815e-a28a447dffdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Base\Helpar\Singleton">
+      <UniqueIdentifier>{436617b7-49ce-48ec-902c-d3b0bc7ea860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シェーダーファイル\InstanceObject">
+      <UniqueIdentifier>{7fc18359-a4db-42fb-957c-579db00601d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Base\GraphicsPipelineManager">
+      <UniqueIdentifier>{9e796eba-af2b-476b-bf30-138d92a52ee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Base\FileLoder">
+      <UniqueIdentifier>{62f202f6-648d-4019-a24a-02fce34d6398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Base\FileLoder\CSV">
+      <UniqueIdentifier>{89695aff-10b9-4ffc-a805-fceb5d716a93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ゲームシステム</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\3d\collider\MeshCollider.cpp">
+      <Filter>エンジンシステム\Object\3d\collider</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\3d\collider\SphereCollider.cpp">
+      <Filter>エンジンシステム\Object\3d\collider</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\3d\collider\Collision.cpp">
+      <Filter>エンジンシステム\Object\3d\collider</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\3d\collider\CollisionManager.cpp">
+      <Filter>エンジンシステム\Object\3d\collider</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\3d\collider\CollisionPrimitive.cpp">
+      <Filter>エンジンシステム\Object\3d\collider</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\3d\Mesh.cpp">
+      <Filter>エンジンシステム\Object\3d\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\3d\Model.cpp">
+      <Filter>エンジンシステム\Object\3d\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\3d\Object3d.cpp">
+      <Filter>エンジンシステム\Object\3d\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\3d\Material.cpp">
+      <Filter>エンジンシステム\Object\3d\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\3d\DrawLine3D.cpp">
+      <Filter>エンジンシステム\Object\3d\DrawLine3D</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\3d\HeightMap.cpp">
+      <Filter>エンジンシステム\Object\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\3d\InterfaceObject3d.cpp">
+      <Filter>エンジンシステム\Object\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\3d\CubeMap.cpp">
+      <Filter>エンジンシステム\Object\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\3d\PrimitiveObject3D.cpp">
+      <Filter>エンジンシステム\Object\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\particle\ParticleManager.cpp">
+      <Filter>エンジンシステム\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\particle\Emitter.cpp">
+      <Filter>エンジンシステム\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\2d\Sprite.cpp">
+      <Filter>エンジンシステム\Object\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\2d\DebugText.cpp">
+      <Filter>エンジンシステム\Object\2d\DebugText</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\2d\PostEffect.cpp">
+      <Filter>エンジンシステム\Object\2d\PostEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\light\LightGroup.cpp">
+      <Filter>エンジンシステム\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\base\Csv.cpp">
+      <Filter>エンジンシステム\Base\FileLoder\CSV</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\base\ComputeShaderManager.cpp">
+      <Filter>エンジンシステム\Base\ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\base\DescriptorHeapManager.cpp">
+      <Filter>エンジンシステム\Base\DescriptorHeapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\base\DirectXCommon.cpp">
+      <Filter>エンジンシステム\Base\DirectXCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\base\GraphicsPipelineManager.cpp">
+      <Filter>エンジンシステム\Base\GraphicsPipelineManager</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\base\FrameRateKeep.cpp">
+      <Filter>エンジンシステム\Base\Helpar\FrameRateKeep</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\base\Matrix4.cpp">
+      <Filter>エンジンシステム\Base\Helpar</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\base\ShaderManager.cpp">
+      <Filter>エンジンシステム\Base\ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\base\Singleton.cpp">
+      <Filter>エンジンシステム\Base\Helpar\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\base\Texture.cpp">
+      <Filter>エンジンシステム\Base\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\base\Vector2.cpp">
+      <Filter>エンジンシステム\Base\Helpar</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\base\Vector3.cpp">
+      <Filter>エンジンシステム\Base\Helpar</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\base\WindowApp.cpp">
+      <Filter>エンジンシステム\Base\WindowApp</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\base\MainEngine.cpp">
+      <Filter>エンジンシステム\Base\MainEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\base\input\DirectInput.cpp">
+      <Filter>エンジンシステム\Base\Input\DirectInput</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\base\input\XInputManager.cpp">
+      <Filter>エンジンシステム\Base\Input\XInputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\camera\Camera.cpp">
+      <Filter>エンジンシステム\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\audio\Audio.cpp">
+      <Filter>エンジンシステム\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\easing\Easing.cpp">
+      <Filter>エンジンシステム\Base\Helpar\Easing</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\external\imgui\imgui_demo.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\external\imgui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\external\imgui\imgui_impl_dx12.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\external\imgui\imgui_impl_win32.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\external\imgui\imgui_tables.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\external\imgui\imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\external\imgui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\scene\SceneManager.cpp">
+      <Filter>エンジンシステム\Base\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\base\Quaternion.cpp">
+      <Filter>エンジンシステム\Base\Helpar</Filter>
+    </ClCompile>
+    <ClCompile Include="game\scene\Scene1.cpp">
+      <Filter>ゲームシステム\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\3d\InstanceObject.cpp">
+      <Filter>エンジンシステム\Object\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\base\JsonLoder.cpp">
+      <Filter>エンジンシステム\Base\FileLoder</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Resources\Shaders\SpriteVS.hlsl">
+      <Filter>シェーダーファイル\Sprite</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\SpritePS.hlsl">
+      <Filter>シェーダーファイル\Sprite</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\ObjVS.hlsl">
+      <Filter>シェーダーファイル\Obj</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\ObjPS.hlsl">
+      <Filter>シェーダーファイル\Obj</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\ParticleGS.hlsl">
+      <Filter>シェーダーファイル\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\ParticlePS.hlsl">
+      <Filter>シェーダーファイル\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\ParticleVS.hlsl">
+      <Filter>シェーダーファイル\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\FbxPS.hlsl">
+      <Filter>シェーダーファイル\Fbx</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\FbxVS.hlsl">
+      <Filter>シェーダーファイル\Fbx</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\DrawLine3DPS.hlsl">
+      <Filter>シェーダーファイル\DrawLine3D</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\DrawLine3DVS.hlsl">
+      <Filter>シェーダーファイル\DrawLine3D</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\PostEffectPS.hlsl">
+      <Filter>シェーダーファイル\PostEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\PostEffectVS.hlsl">
+      <Filter>シェーダーファイル\PostEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\BasicCS.hlsl">
+      <Filter>シェーダーファイル\Basic</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\DrawLine2DPS.hlsl">
+      <Filter>シェーダーファイル\DrawLine2d</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\DrawLine2DVS.hlsl">
+      <Filter>シェーダーファイル\DrawLine2d</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\CubeBoxPS.hlsl">
+      <Filter>シェーダーファイル\CubeBox</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\CubeBoxVS.hlsl">
+      <Filter>シェーダーファイル\CubeBox</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\HeightMapPS.hlsl">
+      <Filter>シェーダーファイル\HeightMap</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\HeightMapVS.hlsl">
+      <Filter>シェーダーファイル\HeightMap</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\InstanceObjectPS.hlsl">
+      <Filter>シェーダーファイル\InstanceObject</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\InstanceObjectVS.hlsl">
+      <Filter>シェーダーファイル\InstanceObject</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shaders\Sprite.hlsli">
+      <Filter>シェーダーファイル\Sprite</Filter>
+    </None>
+    <None Include="Resources\Shaders\Obj.hlsli">
+      <Filter>シェーダーファイル\Obj</Filter>
+    </None>
+    <None Include="Resources\Shaders\Particle.hlsli">
+      <Filter>シェーダーファイル\Particle</Filter>
+    </None>
+    <None Include="Resources\Shaders\Fbx.hlsli">
+      <Filter>シェーダーファイル\Fbx</Filter>
+    </None>
+    <None Include="Resources\Shaders\DrawLine3D.hlsli">
+      <Filter>シェーダーファイル\DrawLine3D</Filter>
+    </None>
+    <None Include="Resources\Shaders\PostEffect.hlsli">
+      <Filter>シェーダーファイル\PostEffect</Filter>
+    </None>
+    <None Include="Resources\Shaders\DrawLine2D.hlsli">
+      <Filter>シェーダーファイル\DrawLine2d</Filter>
+    </None>
+    <None Include="Resources\Shaders\CubeBox.hlsli">
+      <Filter>シェーダーファイル\CubeBox</Filter>
+    </None>
+    <None Include="Resources\Shaders\HeightMap.hlsli">
+      <Filter>シェーダーファイル\HeightMap</Filter>
+    </None>
+    <None Include="Resources\Shaders\InstanceObject.hlsli">
+      <Filter>シェーダーファイル\InstanceObject</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="engine\3d\collider\CollisionTypes.h">
+      <Filter>エンジンシステム\Object\3d\collider</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\3d\collider\MeshCollider.h">
+      <Filter>エンジンシステム\Object\3d\collider</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\3d\collider\QueryCallback.h">
+      <Filter>エンジンシステム\Object\3d\collider</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\3d\collider\RaycastHit.h">
+      <Filter>エンジンシステム\Object\3d\collider</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\3d\collider\SphereCollider.h">
+      <Filter>エンジンシステム\Object\3d\collider</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\3d\collider\BaseCollider.h">
+      <Filter>エンジンシステム\Object\3d\collider</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\3d\collider\Collision.h">
+      <Filter>エンジンシステム\Object\3d\collider</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\3d\collider\CollisionAttribute.h">
+      <Filter>エンジンシステム\Object\3d\collider</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\3d\collider\CollisionInfo.h">
+      <Filter>エンジンシステム\Object\3d\collider</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\3d\collider\CollisionManager.h">
+      <Filter>エンジンシステム\Object\3d\collider</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\3d\collider\CollisionPrimitive.h">
+      <Filter>エンジンシステム\Object\3d\collider</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\3d\Mesh.h">
+      <Filter>エンジンシステム\Object\3d\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\3d\Model.h">
+      <Filter>エンジンシステム\Object\3d\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\3d\Object3d.h">
+      <Filter>エンジンシステム\Object\3d\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\3d\Material.h">
+      <Filter>エンジンシステム\Object\3d\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\3d\DrawLine3D.h">
+      <Filter>エンジンシステム\Object\3d\DrawLine3D</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\3d\HeightMap.h">
+      <Filter>エンジンシステム\Object\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\3d\InterfaceObject3d.h">
+      <Filter>エンジンシステム\Object\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\3d\CubeMap.h">
+      <Filter>エンジンシステム\Object\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\3d\PrimitiveObject3D.h">
+      <Filter>エンジンシステム\Object\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\particle\ParticleManager.h">
+      <Filter>エンジンシステム\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\particle\Emitter.h">
+      <Filter>エンジンシステム\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\2d\Sprite.h">
+      <Filter>エンジンシステム\Object\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\2d\DebugText.h">
+      <Filter>エンジンシステム\Object\2d\DebugText</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\2d\PostEffect.h">
+      <Filter>エンジンシステム\Object\2d\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\light\LightGroup.h">
+      <Filter>エンジンシステム\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\light\PointLight.h">
+      <Filter>エンジンシステム\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\light\SpotLight.h">
+      <Filter>エンジンシステム\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\light\CircleShadow.h">
+      <Filter>エンジンシステム\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\light\DirectionalLight.h">
+      <Filter>エンジンシステム\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\base\Csv.h">
+      <Filter>エンジンシステム\Base\FileLoder\CSV</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\base\ComputeShaderManager.h">
+      <Filter>エンジンシステム\Base\ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\base\DescriptorHeapManager.h">
+      <Filter>エンジンシステム\Base\DescriptorHeapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\base\DirectXCommon.h">
+      <Filter>エンジンシステム\Base\DirectXCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\base\GraphicsPipelineManager.h">
+      <Filter>エンジンシステム\Base\GraphicsPipelineManager</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\base\FrameRateKeep.h">
+      <Filter>エンジンシステム\Base\Helpar\FrameRateKeep</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\base\Matrix4.h">
+      <Filter>エンジンシステム\Base\Helpar</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\base\PipelineHelpar.h">
+      <Filter>エンジンシステム\Base\GraphicsPipelineManager</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\base\ShaderManager.h">
+      <Filter>エンジンシステム\Base\ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\base\Singleton.h">
+      <Filter>エンジンシステム\Base\Helpar\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\base\Texture.h">
+      <Filter>エンジンシステム\Base\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\base\Vector2.h">
+      <Filter>エンジンシステム\Base\Helpar</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\base\Vector3.h">
+      <Filter>エンジンシステム\Base\Helpar</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\base\WindowApp.h">
+      <Filter>エンジンシステム\Base\WindowApp</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\base\MainEngine.h">
+      <Filter>エンジンシステム\Base\MainEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\base\input\DirectInput.h">
+      <Filter>エンジンシステム\Base\Input\DirectInput</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\base\input\XInputManager.h">
+      <Filter>エンジンシステム\Base\Input\XInputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\camera\Camera.h">
+      <Filter>エンジンシステム\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\audio\Audio.h">
+      <Filter>エンジンシステム\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\easing\Easing.h">
+      <Filter>エンジンシステム\Base\Helpar\Easing</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\external\imgui\imgui_impl_dx12.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\external\imgui\imgui_impl_win32.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\external\imgui\imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\external\imgui\imstb_rectpack.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\external\imgui\imstb_textedit.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\external\imgui\imstb_truetype.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\external\imgui\imconfig.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\external\imgui\imgui.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\scene\SceneManager.h">
+      <Filter>エンジンシステム\Base\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\scene\InterfaceScene.h">
+      <Filter>エンジンシステム\Base\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\base\Quaternion.h">
+      <Filter>エンジンシステム\Base\Helpar</Filter>
+    </ClInclude>
+    <ClInclude Include="game\scene\Scene1.h">
+      <Filter>ゲームシステム\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\base\SafeDelete.h">
+      <Filter>エンジンシステム\Base\Helpar</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\3d\InstanceObject.h">
+      <Filter>エンジンシステム\Object\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\base\JsonLoder.h">
+      <Filter>エンジンシステム\Base\FileLoder</Filter>
+    </ClInclude>
+    <ClInclude Include="game\GameHelper.h">
+      <Filter>ゲームシステム</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
